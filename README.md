@@ -1,13 +1,13 @@
 # pi-rest
 sample api rest
 
-# generate jar
+## generate jar
 mvn clean compile assembly:single
 
-#execute script
+## execute script
 bash scripts/launchPiApp.bash
 
-# sample rest request
+## sample rest request
 http://localhost:4567/combine
 content-type application/json
 Body
