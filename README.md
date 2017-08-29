@@ -11,7 +11,8 @@ bash scripts/launchPiApp.bash
 http://localhost:4567/combine  
 content-type application/json  
 Body  
-{ "content":[  
+{   
+"content":[  
     "Are the kids at home? aaaaa fffff",  
     "Yes they are here! aaaaa fffff"]  
 }  
