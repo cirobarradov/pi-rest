@@ -10,7 +10,8 @@ bash scripts/launchPiApp.bash
 ## sample rest request
 
 curl -H "Content-Type: application/json" -X POST -d '{"content":["Are the kids at home? aaaaa fffff","Yes they are here! aaaaa fffff"]}' http://localhost:4567/combine
-<br/>
+<br/>  
+#### request components
 url: http://localhost:4567/combine  
 headers: content-type application/json  
 Body  
