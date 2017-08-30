@@ -8,7 +8,10 @@ mvn clean compile assembly:single
 bash scripts/launchPiApp.bash
 
 ## sample rest request
-http://localhost:4567/combine  
+
+curl -H "Content-Type: application/json" -X POST -d '{"content":["Are the kids at home? aaaaa fffff","Yes they are here! aaaaa fffff"]}' http://localhost:4567/combine
+<br/>
+url: http://localhost:4567/combine  
 headers: content-type application/json  
 Body  
 {   
