@@ -9,7 +9,7 @@ bash scripts/launchPiApp.bash
 
 ## sample rest request
 http://localhost:4567/combine  
-content-type application/json  
+headers: content-type application/json  
 Body  
 {   
 "content":[  
